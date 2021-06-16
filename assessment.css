@@ -95,3 +95,24 @@ main {
   padding: 0.5em 1em;
   color: #fff;
 }
+
+@media (min-width: 600px) {
+  header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+
+  header nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  header ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
