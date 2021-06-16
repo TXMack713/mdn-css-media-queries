@@ -1,0 +1,97 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  word-break: break-all;
+  hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: linear-gradient(
+    to right bottom,
+    #2c7792,
+    #009699,
+    #17b17a,
+    #90c242,
+    #fdc116
+  );
+  width: 90%;
+  margin: 2em auto;
+  font: 1.2em/1.4 Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 0 0 1em;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  border: 5px solid #000;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 0.5em 1em;
+  border-top: 1px solid #999;
+}
+
+header .title {
+  font-size: 150%;
+  font-style: italic;
+  font-weight: bold;
+  padding: 1em;
+}
+
+main {
+  padding: 0 1em;
+}
+
+.cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards li {
+  border: 5px solid #000;
+  margin-bottom: 1em;
+}
+
+.cards h2 {
+  background-color: #333;
+  color: #fff;
+  margin: 0;
+  padding: 0.5em 1em;
+}
+
+.cards .inner {
+  padding: 0.5em 1em;
+}
+
+.sidebar {
+  background-color: #333;
+  border: 5px solid #000;
+  padding: 0.5em 1em;
+  color: #fff;
+}
